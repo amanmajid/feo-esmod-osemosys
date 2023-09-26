@@ -76,13 +76,13 @@ We now need to setup a `python` environment to install all required Python packa
 Using `mamba`:
 
 ```bash
-mamba env create --file=~/workflow/envs/feo-osemosys.yaml
+mamba env create --file=workflow/envs/feo-osemosys.yaml
 ```
 
 Using `conda`:
 
 ```bash
-conda env create --file=~/workflow/envs/feo-osemosys.yaml
+conda env create --file=workflow/envs/feo-osemosys.yaml
 ```
 
 #### 5. Run a small demo model
